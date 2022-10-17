@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.account {
+  background-color: rgba(189, 96, 96, 0.395);
+  border: 1.5px solid rgba(189, 96, 96, 0.312);
+}
+.transaction {
+  background-color: blanchedalmond;
+  border: 1.5px solid rgb(212, 196, 172);
+}
+.contract {
+  background-color: rgba(255, 127, 80, 0.395);
+  border: 1.5px solid rgba(255, 127, 80, 0.579);
+}
+
+.etherscan {
+  text-align: center;
+  margin-top: 2em;
+}
+.eth {
+  width: 15px;
+  height: 20px;
+  margin: px;
+}
+.ethLogo {
+  width: 100px;
+  height: 50px;
+}
+.input {
+  font-weight: 300;
+  font-size: small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: solid 1px black;
+}
+.etherscan2 {
+  text-align: right;
+  margin-top: 2em;
+  margin-right: 12em;
+}
+.info {
+  text-align: center;
+  border-style: solid;
+}
+.info2 {
+  margin-left: 10em;
+  font-size: large;
+  font-weight: 700;
+}
+.info3 {
+  text-align: center;
+  font-size: larger;
+  font-style: italic;
+}
